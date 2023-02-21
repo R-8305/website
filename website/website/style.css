@@ -1,0 +1,100 @@
+*{
+  margin: 0px;
+}
+.nav-link{
+    font-size:14px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+  }
+.nav-item.active{
+  border-left:#444 3px solid;
+}
+
+#carouselExampleCaptions{
+  height: 100vh !important;
+  width: 100vw !important;
+  background-color: aquamarine;
+}
+
+.carousel-inner{
+  height: 100% !important;
+  width: 100% !important;
+  background-color: #444;
+}
+.carousel-item{
+  height:100% !important;
+  width: 100% !important;
+  padding: 10px 200px;
+  display: block !important; 
+}
+.carousel-item:first-child{
+  background-image: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/5cfd24156533487.Y3JvcCw0MjI5LDMzMDgsMjgyLDA.png');
+  background-size: cover;
+}
+.carousel-item:nth-child(2){
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/46e718128824589.615dfe803adec.png');
+}
+.carousel-item:nth-child(3){
+  background-image: url('https://www.behance.net/gallery/159847607/Dharavi-Bank-Posters-Design/modules/901920291');
+  background-size: cover;
+
+}
+.container1{
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+  .container1 .row .col img{
+    height: 230px;
+    width: 190px;
+    border-radius: 5%;
+    box-sizing: border-box;
+    
+  }
+  .container2{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+  
+    .container2 .row .col img{
+      height: 230px;
+      width: 190px;
+      border-radius: 5%;
+      box-sizing: border-box;
+      
+    }
+    .container3{
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+    }
+    
+      .container3 .row .col img{
+        height: 230px;
+        width: 170px;
+        border-radius: 5%;
+        box-sizing: border-box;
+        
+      }
+      .container4{
+        margin-bottom: 10px;
+  padding-bottom: 5px;
+      }
+      
+        .container4 .row .col img{
+          height: 230px;
+          width: 190px;
+          border-radius: 5%;
+          box-sizing: border-box;
+          
+        }
+        .container{
+          background-color: #c4bebe;
+    padding-bottom: 5px;
+        }
+        .container .row .col img{
+          height: 230px;
+          width: 190px;
+          box-sizing: border-box;
+          
+        }
+     
