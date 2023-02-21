@@ -98,3 +98,31 @@
           
         }
      
+@media (min-width:864px) {
+  .carousel-item:first-child{
+    background-image: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/5cfd24156533487.Y3JvcCw0MjI5LDMzMDgsMjgyLDA.png');
+    background-size: cover;
+  }
+  .carousel-item:nth-child(2){
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/46e718128824589.615dfe803adec.png');
+  }
+  .carousel-item:nth-child(3){
+    background-image: url('https://www.behance.net/gallery/159847607/Dharavi-Bank-Posters-Design/modules/901920291');
+    background-size: cover;
+  
+  }
+  .container1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+    .container1 .row .col img{
+      height: 100px;
+      width: 80px;
+      border-radius: 5%;
+      box-sizing: border-box;
+      
+    }
+  
+}
