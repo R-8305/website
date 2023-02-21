@@ -32,14 +32,8 @@
   background-image: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/5cfd24156533487.Y3JvcCw0MjI5LDMzMDgsMjgyLDA.png');
   background-size: cover;
 }
-.carousel-item:nth-child(2){
-  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/46e718128824589.615dfe803adec.png');
-}
-.carousel-item:nth-child(3){
-  background-image: url('https://www.behance.net/gallery/159847607/Dharavi-Bank-Posters-Design/modules/901920291');
-  background-size: cover;
 
-}
+
 .container1{
   margin-bottom: 10px;
   padding-bottom: 5px;
@@ -91,38 +85,75 @@
           background-color: #c4bebe;
     padding-bottom: 5px;
         }
-        .container .row .col img{
+        .container .row .col {
           height: 230px;
           width: 190px;
           box-sizing: border-box;
           
         }
      
-@media (min-width:864px) {
+@media(min-width:664px) and(max-width:924px) {
   .carousel-item:first-child{
-    background-image: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/5cfd24156533487.Y3JvcCw0MjI5LDMzMDgsMjgyLDA.png');
+    width: 100%;
     background-size: cover;
-  }
-  .carousel-item:nth-child(2){
-    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/46e718128824589.615dfe803adec.png');
-  }
-  .carousel-item:nth-child(3){
-    background-image: url('https://www.behance.net/gallery/159847607/Dharavi-Bank-Posters-Design/modules/901920291');
-    background-size: cover;
-  
   }
   .container1{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
     margin-bottom: 10px;
     padding-bottom: 5px;
   }
     .container1 .row .col img{
-      height: 100px;
-      width: 80px;
+      height: 150px;
+      width: 100px;
       border-radius: 5%;
       box-sizing: border-box;
       
     }
+    .container2{
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+    }
+      .container2 .row .col img{
+        height: 150px;
+        width: 100px;
+        border-radius: 5%;
+        box-sizing: border-box;
+        
+      }
+      .container3{
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+      }
+        .container3 .row .col img{
+          height: 150px;
+          width: 100px;
+          border-radius: 5%;
+          box-sizing: border-box;
+          
+        }
+        .container4{
+          margin-bottom: 10px;
+          padding-bottom: 5px;
+        }
+          .container4 .row .col img{
+            height: 150px;
+            width: 100px;
+            border-radius: 5%;
+            box-sizing: border-box;
+            
+          }
+          .container{
+            background-color: #c4bebe;
+      padding-bottom: 5px;
+          
+    }
+    .container .row .col{
+      font-size: small;
+     
+      box-sizing: border-box;
+      
+    }      
+
   
-}
+      
+    }
+  
